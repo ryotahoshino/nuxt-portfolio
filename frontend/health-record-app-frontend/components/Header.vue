@@ -1,5 +1,9 @@
 <template>
-  <header>
-    <h1>Header</h1>
-  </header>
+  <v-app-bar :elevation="2">
+    <template v-slot:prepend>
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+    </template>
+  
+    <v-app-bar-title>健康記録アプリ</v-app-bar-title>
+  </v-app-bar>
 </template>

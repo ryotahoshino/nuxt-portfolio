@@ -1,16 +1,19 @@
 <template>
-  <div>
-    <!-- ヘッダー -->
-    <Header />
+  <v-app>
+    <div>
+      <!-- ヘッダー -->
+      <Header />
 
-    <!-- ページコンテンツ -->
-    <main>
-      <NuxtPage />
-    </main>
+      <!-- ページコンテンツ -->
+      <main>
+        <NuxtPage />
+      </main>
 
-    <!-- フッター -->
-    <Footer />
-  </div>
+      <!-- フッター -->
+      <Footer />
+    </div>
+  </v-app>
+  
 </template>
 
 <script setup>
